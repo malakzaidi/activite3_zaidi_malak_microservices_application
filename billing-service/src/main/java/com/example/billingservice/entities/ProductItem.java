@@ -1,11 +1,9 @@
 package com.example.billingservice.entities;
 
-
 import com.example.billingservice.model.Product;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.*;
-
 
 @Entity
 @Getter
