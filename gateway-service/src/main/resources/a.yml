@@ -12,3 +12,7 @@ spring:
               uri: lb://INVENTORY-SERVICE
               predicates:
                 - Path= /api/products/**
+            - id: r3
+              uri: lb://BILLING-SERVICE
+              predicates:
+                - Path= /api/bills/**
